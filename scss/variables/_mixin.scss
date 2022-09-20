@@ -1,0 +1,29 @@
+@mixin estilo1 ($size, $sombra){
+    font-size: $size;
+    font-family: $letra;
+    text-align: center;
+    max-width: 60vw;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: $sombra;
+
+}
+
+@mixin estilo2 ($size, $sombra){
+    font-size: $size;
+    font-family: $letra;
+    text-align: center;
+    max-width: 60vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-shadow: $sombra;
+}
+
+@mixin estilo3 ($size, $sombra){
+    font-size: $size;
+    font-family: $letra;
+    max-width: 60vw;
+    text-shadow: $sombra;
+}

@@ -1,0 +1,37 @@
+.container {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    h1 {
+        @include estilo1(60px, 1px 1px 2px rgb(255, 255, 255));
+        padding: 30px
+    }
+    .row {
+        justify-content: space-evenly;
+        width: 100%;
+        padding-top: 10px;
+        .card {
+            background-color: rgba(205, 209, 216, 0.555);
+            margin: 25px;
+            height: 30vh;
+            transition: 3s;
+            .card-img-top {
+                padding-top: 10px;
+                filter: grayscale(1)
+            }
+            .card-img-top:hover {
+                padding-top: 10px;
+                filter: grayscale(0)
+            }
+            h5 {
+                @include estilo2(25px, 1px 1px 2px rgb(255, 255, 255));
+
+            }
+            .parrafo {
+                @include estilo2(20px, 1px 1px 2px rgb(255, 255, 255));
+                padding-top: 15px;
+            }
+
+
+        }
+    }
+}

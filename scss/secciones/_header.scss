@@ -1,0 +1,52 @@
+.header {
+    padding: 1rem;
+    background-color: $beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__img {
+        width: 90px;
+        transition: 10s;
+    }
+    &__img:hover{
+        transform: rotateZ(360deg)
+    }
+    &__ul{
+        display: flex;
+        list-style: none;
+        &--active{
+            font-weight: 900;
+        }
+        li{
+            font-family: $letra;
+            padding: 1rem;
+            a{
+                color: black;
+                text-decoration: none;
+                font-size: 18px;
+                .activo{
+                    font-weight: bold;
+                }
+            }
+            a:hover{
+                font-weight: bold;
+
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;   
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+}
+
+}

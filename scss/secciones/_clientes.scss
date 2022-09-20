@@ -1,0 +1,52 @@
+.clientes{
+    margin: 40px;
+    min-height: 73vh;
+    h1{
+        @include estilo1(60px, 1px 1px 2px rgb(255, 255, 255));
+        padding: 30px
+    }
+    .parrafo{
+        @include estilo1(25px, 1px 1px 2px rgb(255, 255, 255));
+        max-width: 80vw;
+
+    }
+    
+}
+
+.carousel{
+    padding: 10px;
+    max-width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.carousel-inner{
+    display: flex;
+    padding-top: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.carousel-item{
+    transition: transform 6s ease-in-out;
+}
+
+@media only screen and (max-width: 768px){
+    .clientes{
+        margin: 40px;
+        min-height: 73vh;
+        h1{
+            @include estilo1(40px, 1px 1px 2px rgb(255, 255, 255));
+            padding: 30px
+        }
+        .parrafo{
+            @include estilo1(15px, 1px 1px 2px rgb(255, 255, 255));
+            max-width: 80vw;
+    
+        }
+
+    }
+}
+

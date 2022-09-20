@@ -1,0 +1,47 @@
+
+.clearfix{
+    h1{
+        @include estilo1 (60px, 1px 1px 2px rgb(255, 255, 255));
+    }
+    p{
+        @include estilo1 (20px, 1px 1px 2px rgb(255, 255, 255));
+    }
+    .camion{
+        border-radius: 13px;
+    }
+   
+}
+.tabla{
+    p{
+        @include estilo1 (20px, 1px 1px 2px rgb(255, 255, 255));
+        background-color: $marron;
+        transition: 3s;
+    }
+    p:hover{
+        color: white;
+        transition: 3s;
+    
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .clearfix{
+        display: flex;
+        flex-direction: column;
+        h1{
+            @include estilo1 (40px, 1px 1px 2px rgb(255, 255, 255));
+        }
+        p{
+            @include estilo1 (15px, 1px 1px 2px rgb(255, 255, 255));
+        }
+        .camion{
+            border-radius: 13px;
+            width: 100%;
+            
+        }
+    }
+    
+}
+
+
+

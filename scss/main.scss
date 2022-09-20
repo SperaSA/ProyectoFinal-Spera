@@ -1,0 +1,21 @@
+.fondo{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}
+
+@import './variables/colores';
+@import './variables/mixin';
+@import './variables/typo';
+
+@import './secciones/header';
+@import './secciones/main';
+@import './secciones/footer';
+@import './secciones/flota';
+@import './secciones/clientes';
+@import './secciones/servicios';
+@import './secciones/contacto';
+@import './secciones/headerform';
+@import './secciones/cotizacion';

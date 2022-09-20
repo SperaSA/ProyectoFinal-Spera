@@ -1,0 +1,70 @@
+.contacto{
+    display: flex;
+    .section{
+        h1{
+            @include estilo1(50px, 1px 1px 2px rgb(0, 0, 0));
+        }
+        width: 600px;
+        margin: auto;
+        background-color: transparent;
+        background-color: #11020245;
+        color: white;
+        text-shadow: 3px 3px 2px rgb(0, 0, 0);
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 30px;
+        border-radius: 7px;
+        .contactanos{
+            text-align: center;
+            margin: 0;
+            margin-bottom: 15px;
+        }
+        .formulario{
+            .input{
+                width: 100%;
+                margin-bottom: 15px;
+                padding: 10px;
+                box-sizing: border-box;
+                background-color: rgba(240, 248, 255, 0.568);
+            }
+            .textarea{
+                min-height: 200px;
+                max-height: 500px;
+                max-width: 100%;
+            }
+            .boton{
+                background-color: rgb(40, 39, 44);
+                color: white;
+                padding: 20px;
+            }
+            .maps{
+                height: 200px;
+                margin: auto;
+                box-sizing: border-box;
+                border-radius: 7px;
+                margin-bottom: 30px;
+                width: 100%;
+                filter: grayscale(1);
+                transition: 2s;
+            }
+            .maps:hover{
+                filter:grayscale(0);
+                transition: 2s;
+            }
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
