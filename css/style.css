@@ -174,7 +174,8 @@
       background-color: rgba(205, 209, 216, 0.555);
       margin: 25px;
       height: 30vh;
-      transition: 3s; }
+      transition: 3s;
+      block-size: auto; }
       .container .row .card .card-img-top {
         padding-top: 10px;
         filter: grayscale(1); }
@@ -292,7 +293,9 @@
   text-shadow: 1px 1px 2px white; }
 
 .clearfix .camion {
-  border-radius: 13px; }
+  border-radius: 13px;
+  width: 30vw;
+  margin-right: 110px; }
 
 .tabla p {
   font-size: 20px;
@@ -306,6 +309,9 @@
   text-shadow: 1px 1px 2px white;
   background-color: rgba(57, 56, 70, 0.685);
   transition: 3s; }
+
+.tabla .row {
+  margin: 0 auto; }
 
 .tabla p:hover {
   color: white;

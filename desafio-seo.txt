@@ -1,0 +1,21 @@
+Keywords:
+- index: sevicio, concepto, empresa, organizacion, objetivo, nacional, internacional, clientes, necesidad
+- clientes: empresa, logistica, nacional, internacional, cliente, socios estrategicos, soluciones
+- contacto: contactanos, nombre y apellido, empresa, email, telefono, comentario
+- cotizacion: datos, empresa, nombre, ciudad, provincia, telefono, dimensiones, carga
+- flota: semirremolque, siders, furgones, balancines, variedades, unidades
+- servicios: eslabones, logistica, soluciones, clientes, compromiso, servicios, negocios, codigo, conducta, respeto, eficiente
+
+Descriptions:
+- index: Creada para brindar Servicio, en el mas amplio concepto de lo que esto significa
+- clientes: Excelencia en el mercado
+- contacto: contactanos
+- cotizacion: SOLICITE SU COTIZACION
+- flota: Alcanzando todos los sectores
+- servicios: Precisa, confiable y eficaz
+
+Se agregaron variables:
+- Mixin: se agregaron a todas las paginas posibles para generar el mismo estilo mas facilmente
+- Typo: Se agrego desde google fonts una tipografia en particular para la pagina web
+
+

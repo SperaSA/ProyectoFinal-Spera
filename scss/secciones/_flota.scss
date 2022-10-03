@@ -14,6 +14,7 @@
             margin: 25px;
             height: 30vh;
             transition: 3s;
+            block-size: auto;
             .card-img-top {
                 padding-top: 10px;
                 filter: grayscale(1)
@@ -30,8 +31,6 @@
                 @include estilo2(20px, 1px 1px 2px rgb(255, 255, 255));
                 padding-top: 15px;
             }
-
-
         }
     }
 }
