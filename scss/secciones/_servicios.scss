@@ -51,12 +51,12 @@
 @media only screen and (max-width: 575px){
     .clearfix{
         h1{
-            @include estilo1 (40px, 1px 1px 2px rgb(255, 255, 255));
-            max-width: 80vw
+            @include estilo1 (30px, 1px 1px 2px rgb(255, 255, 255));
+            max-width: 85vw
         }
         p{
-            @include estilo1 (25px, 1px 1px 2px rgb(255, 255, 255));
-            max-width: 80vw
+            @include estilo1 (20px, 1px 1px 2px rgb(255, 255, 255));
+            max-width: 85vw
         }
     }
     .tabla{
