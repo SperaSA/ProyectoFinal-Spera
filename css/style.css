@@ -106,6 +106,31 @@
       text-shadow: 1px 1px 2px white;
       max-width: 80vw; } }
 
+@media only screen and (max-width: 575px) {
+  .introduccion {
+    max-width: 80vw; }
+    .introduccion h1 {
+      font-size: 30px;
+      font-family: "Nunito", sans-serif;
+      text-align: center;
+      max-width: 60vw;
+      margin: 0 auto;
+      margin-top: 30px;
+      padding: 20px;
+      border-radius: 10px;
+      text-shadow: 1px 1px 2px white; }
+    .introduccion .parrafo {
+      font-size: 20px;
+      font-family: "Nunito", sans-serif;
+      text-align: center;
+      max-width: 60vw;
+      margin: 0 auto;
+      margin-top: 30px;
+      padding: 20px;
+      border-radius: 10px;
+      text-shadow: 1px 1px 2px white;
+      max-width: 80vw; } }
+
 .footer-style {
   padding-top: 5px;
   background-color: rgba(57, 56, 70, 0.685);
@@ -291,6 +316,10 @@
       text-shadow: 1px 1px 2px white;
       max-width: 80vw; } }
 
+@media only screen and (max-width: 575px) {
+  .carousel {
+    max-width: 90vw; } }
+
 .clearfix h1 {
   font-size: 60px;
   font-family: "Nunito", sans-serif;
@@ -365,6 +394,43 @@
     .clearfix .camion {
       border-radius: 13px;
       width: 100%; } }
+
+@media only screen and (max-width: 575px) {
+  .clearfix h1 {
+    font-size: 40px;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    max-width: 60vw;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px white;
+    max-width: 80vw; }
+  .clearfix p {
+    font-size: 25px;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    max-width: 60vw;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px white;
+    max-width: 80vw; }
+  .tabla p {
+    font-size: 15px;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    max-width: 60vw;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px white;
+    background-color: rgba(57, 56, 70, 0.685);
+    block-size: auto;
+    color: white; } }
 
 .contacto {
   display: flex; }

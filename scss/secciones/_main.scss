@@ -29,3 +29,17 @@
 
     }
 }
+
+@media only screen and (max-width: 575px){
+    .introduccion{
+        max-width: 80vw;
+        h1{
+            @include estilo1(30px, 1px 1px 2px rgb(255, 255, 255));
+        }
+        .parrafo{
+            @include estilo1(20px, 1px 1px 2px rgb(255, 255, 255));
+            max-width: 80vw;
+    
+        }
+        }
+}

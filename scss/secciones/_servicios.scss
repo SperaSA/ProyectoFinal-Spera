@@ -48,5 +48,27 @@
     
 }
 
+@media only screen and (max-width: 575px){
+    .clearfix{
+        h1{
+            @include estilo1 (40px, 1px 1px 2px rgb(255, 255, 255));
+            max-width: 80vw
+        }
+        p{
+            @include estilo1 (25px, 1px 1px 2px rgb(255, 255, 255));
+            max-width: 80vw
+        }
+    }
+    .tabla{
+        p{
+            @include estilo1 (15px, 1px 1px 2px rgb(255, 255, 255));
+            background-color: $marron;
+            block-size: auto;
+            color: white;
+
+        }
+    }
+}
+
 
 
