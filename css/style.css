@@ -437,7 +437,7 @@
         font-weight: bold; }
 
 @media only screen and (max-width: 768px) {
-  header {
+  .header2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -445,6 +445,15 @@
     width: 100%;
     text-align: center;
     font-size: 18px; } }
+
+@media only screen and (max-width: 768px) and (max-width: 575px) {
+  .header2 {
+    background-color: rgba(92, 91, 91, 0.37); }
+    .header2 .header2__ul {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0; } }
 
 .cotizacion {
   width: 900px;
